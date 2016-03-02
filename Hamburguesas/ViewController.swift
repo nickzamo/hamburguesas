@@ -10,9 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var labelPais: UILabel!
+    @IBOutlet weak var labelPais: UILabel!
     
-    @IBOutlet var labelHamburguesa: UILabel!
+    @IBOutlet weak var labelHamburguesa: UILabel!
     
     let pais = ColeccionDePaises()
     let hamburguesa = ColeccionDeHamburguesas()
